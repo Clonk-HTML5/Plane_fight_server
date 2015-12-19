@@ -1,7 +1,7 @@
 {
-  "name": "towerdefense-multiplayer",
+  "name": "plane_fight-multiplayer",
   "version": "0.0.0",
-  "description": "Towerdefense example gone multiplayer!",
+  "description": "Plane Fight example gone multiplayer!",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
