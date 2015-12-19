@@ -70,7 +70,7 @@ function onSocketConnection(client) {
 
 	// Listen for new player message
 	client.on("new player", onNewPlayer);
-
+    
 	// Listen for move player message
 	client.on("move player", onMovePlayer);	
     
