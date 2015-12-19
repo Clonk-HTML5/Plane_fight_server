@@ -30,16 +30,16 @@ function init() {
 	socket = io.listen(8120);
 //	socket = io.listen(server);
 
-    util.log("Socket.io listen on Port: 5000");
+    util.log("Socket.io listen on Port: "+ port);
     
 	// Configure Socket.IO
-	socket.configure(function() {
-		// Only use WebSockets
-		socket.set("transports", ["websocket"]);
-
-		// Restrict log output
-		socket.set("log level", 2);
-	});
+// 	socket.configure(function() {
+// 		// Only use WebSockets
+// 		socket.set("transports", ["websocket"]);
+// 
+// 		// Restrict log output
+// 		socket.set("log level", 2);
+// 	});
 
 	// Start listening for events
 	setEventHandlers();
